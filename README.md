@@ -2,13 +2,32 @@
 
 Spiceworks est un ....
 
+#### Prérequis Serveur
 
+| SPEC |  |
+| :--- | :--- |
+| OS | 64-bit Windows - Win Server 2012 R2 |
+| CPU | Dual-core CPU |
+| RAM | 4GB |
+| Disque | At least 50 GB |
+
+#### Dépendance 
+
+Le firmware .NET 4.5 est nécessaire pour l'installation de cette solution.
+
+#### Sécurité
+
+Ports qui doivent être ouvert sur le FW :
+
+* 4094 - collector service
+* 5555 - Processor service
+* 6739 - redis database
+* 8005 - app server
+* 8009 - app server
 
 #### Mise en place 
 
 Pour l'installation de l'outil de monitoring Spiceworks, nous devons tout d'abord nous connecter en remote sur notre serveur. 
-
-Le firmware .NET 4.5 est nécessaire pour l'installation de cette solution.
 
 Une fois la connexion établie, nous devons nous rendre sur le site de Spiceworks pour télécharger l'exécutable. Un compte est nécessaire pour le téléchargement.
 

@@ -37,6 +37,8 @@ Suite au téléchargement de ce dernier, nous pouvons sans autre commencer son i
 
 Une fois l'installation terminée, le lien web s'ouvre automatiquement. Nous devons ensuite ajouter le/s serveurs pour les monitorer. Pour ajouter un serveur, nous devons nous rendre dans l'ongtet "Devices" puis "Add new device".
 
+Lien de la documentation officiel : [https://community.spiceworks.com/support/network-monitor/docs/setup](https://community.spiceworks.com/support/network-monitor/docs/setup)
+
 Voici l'interface de spiceworks : 
 
 ![](.gitbook/assets/image.png)

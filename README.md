@@ -17,7 +17,7 @@ Le firmware .NET 4.5 est nécessaire pour l'installation de cette solution.
 
 #### Sécurité
 
-Ports qui doivent être ouvert sur le FW :
+![](.gitbook/assets/image%20%286%29.png)
 
 * 4094 - collector service
 * 5555 - Processor service

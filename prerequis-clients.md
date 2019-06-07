@@ -20,9 +20,14 @@ Schéma infra :
 * Macintosh OS X - **SSH must be enabled**
 * Linux/Unix - **SSH must be enabled**
 
-**Hardware :**
+#### Ports qui doivent être ouvert sur les clients :
 
-* 
+* Port 161 \(tcp\) SNMP
+* Port 135 \(tcp\) WMI
+* ICMP PING
+
+
+
 
 
 

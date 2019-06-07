@@ -17,7 +17,7 @@ Le firmware .NET 4.5 est nécessaire pour l'installation de cette solution.
 
 #### Sécurité
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image.png)
 
 * 4094 - collector service
 * 5555 - Processor service
@@ -41,7 +41,7 @@ Lien de la documentation officiel : [https://community.spiceworks.com/support/ne
 
 Voici l'interface de spiceworks : 
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image%20%288%29.png)
 
-![](.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/image%20%282%29.png)
 

@@ -2,6 +2,8 @@
 
 #### Contexte
 
+Ce projet est un laboratoire effectué dans un project scolaire.
+
 Pour ce projet, j'ai 3 serveurs qui doivent être monitoré. Dont un serveur sous Linux, un serveur W2k16 Core et un Windows server 2012 R2 où est installé notre outil de monitoring.
 
 Nous possédons une instance EC2 chez Amazon, c'est sur cette dernière que nous effectuons une connexion en utilisant un tunnel SSH. Une fois la connexion établie, nous pouvons soit se connecter en SSH pour notre serveur Linux sous Centos ou en RDP sur nos serveurs Windows.
@@ -21,7 +23,7 @@ Le temps que nous avions à disposition pour conclure ce projet est de :
 
 #### Dépendance 
 
-Le firmware .NET 4.5 est nécessaire pour l'installation de cette solution.
+Le firmware .NET 4.5 est nécessaire pour l'installation de cette solution, ainsi qu'une connexion internet active. 
 
 #### Sécurité
 
@@ -47,9 +49,13 @@ Nous devons ensuite ajouter le/s serveurs pour les monitorer. Pour ajouter un se
 
 Lien de la documentation officiel : [https://community.spiceworks.com/support/network-monitor/docs/setup](https://community.spiceworks.com/support/network-monitor/docs/setup)
 
+L'installation est très simple, il suffit simplement d'attendre que l'executable se soit bien installé. Lorsqu'on ajout des serveurs, les sondes sont automatiquement déployés et configurés. Ce point est un peu dommage, car nous avons pas forcément le controle total. On ne peut seulement modifier les sondes actuelles ou en rajouter via des catégories prédéfinies.
+
 Voici l'interface de spiceworks : 
 
 ![](.gitbook/assets/image%20%2811%29.png)
 
 ![](.gitbook/assets/image%20%284%29.png)
+
+
 

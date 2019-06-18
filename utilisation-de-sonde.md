@@ -12,3 +12,13 @@ Un email a également été envoyé par Spiceworks
 
 ![](.gitbook/assets/image%20%2810%29.png)
 
+#### Linux
+
+Pour faire un stress du CPU sous Centos, nous devons utiliser la commande : stress
+
+```text
+sudo yum install epel-release 
+sudo yum install stress
+stress-ng --cpu 4 --timeout 60s
+```
+

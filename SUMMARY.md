@@ -5,4 +5,7 @@
 * [Utilisation de sonde](utilisation-de-sonde.md)
 * [Logs & Scripts](logs-and-scripts.md)
 * [SNAPSHOT](snapshot.md)
+* [FileServer-WindowsCore](fileserver-windowscore.md)
+* [Centos - Database Server](centos-database-server.md)
+* [Untitled](untitled.md)
 

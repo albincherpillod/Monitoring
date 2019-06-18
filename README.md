@@ -41,7 +41,7 @@ Lien de la documentation officiel : [https://community.spiceworks.com/support/ne
 
 Voici l'interface de spiceworks : 
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image%20%283%29.png)
 

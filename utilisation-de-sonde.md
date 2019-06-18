@@ -4,11 +4,11 @@ Pour pouvoir tester l'utilisation d'une sonde, j'ai téléchargé un logiciel qu
 
 Le logiciel "CPU Stress MT" a été utilisé et démarré :
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%287%29.png)
 
 ![](.gitbook/assets/image%20%281%29.png)
 
 Un email a également été envoyé par Spiceworks
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 

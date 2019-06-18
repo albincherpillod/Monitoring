@@ -12,5 +12,5 @@ Il faut tout d'abord passer en powershell, il suffit de tapper "powershell"
 
 Puis on lance la commande "Install-WindowsFeature File-Services"
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 

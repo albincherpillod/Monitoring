@@ -4,9 +4,11 @@ Prérequis pour les différents clients où les sondes seront configurés..
 
 Schéma infra : 
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%283%29.png)
 
 #### OS minimum :
+
+RDP doit être actif pour les OS sous Windows
 
 * Windows 2000 Professional
 * Windows 2000 Server

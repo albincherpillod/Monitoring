@@ -1,6 +1,14 @@
 # Installation de Spiceworks
 
-Spiceworks est un ....
+#### Contexte
+
+Pour ce projet, j'ai 3 serveurs qui doivent être monitoré. Dont un serveur sous Linux, un serveur W2k16 Core et un Windows server 2012 R2 où est installé notre outil de monitoring.
+
+Nous possédons une instance EC2 chez Amazon, c'est sur cette dernière que nous effectuons une connexion en utilisant un tunnel SSH. Une fois la connexion établie, nous pouvons soit se connecter en SSH pour notre serveur Linux sous Centos ou en RDP sur nos serveurs Windows.
+
+Le service Mysql \(Centos\) ainsi que le service Files sur le server Core doivent être monitorer également.
+
+Le temps que nous avions à disposition pour conclure ce projet est de : 
 
 #### Prérequis Serveur
 
@@ -29,13 +37,13 @@ Le firmware .NET 4.5 est nécessaire pour l'installation de cette solution.
 
 Pour l'installation de l'outil de monitoring Spiceworks, nous devons tout d'abord nous connecter en remote sur notre serveur. 
 
-Une fois la connexion établie, nous devons nous rendre sur le site de Spiceworks pour télécharger l'exécutable. Un compte est nécessaire pour le téléchargement.
+Une fois la connexion établie, nous devons nous rendre sur le site de Spiceworks pour télécharger l'exécutable. 
 
 {% embed url="https://www.spiceworks.com/download/monitor" %}
 
-Suite au téléchargement de ce dernier, nous pouvons sans autre commencer son installation.
+Suite au téléchargement de ce dernier, nous pouvons sans autre commencer son installation. Une fois cette dernière terminé, il est nécessaire de créer un compte pour se connecter sur l'interface web.
 
-Une fois l'installation terminée, le lien web s'ouvre automatiquement. Nous devons ensuite ajouter le/s serveurs pour les monitorer. Pour ajouter un serveur, nous devons nous rendre dans l'ongtet "Devices" puis "Add new device".
+Nous devons ensuite ajouter le/s serveurs pour les monitorer. Pour ajouter un serveur, nous devons nous rendre dans l'ongtet "Devices" puis "Add new device".
 
 Lien de la documentation officiel : [https://community.spiceworks.com/support/network-monitor/docs/setup](https://community.spiceworks.com/support/network-monitor/docs/setup)
 

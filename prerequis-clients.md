@@ -4,7 +4,7 @@ Prérequis pour les différents clients où les sondes seront configurés..
 
 Schéma infra : 
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 #### OS minimum :
 

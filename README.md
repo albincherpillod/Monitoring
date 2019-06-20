@@ -2,13 +2,13 @@
 
 #### Contexte
 
-Ce projet est un laboratoire effectué dans un project scolaire.
+Ceci est un laboratoire pour un projet scolaire.
 
 Pour ce projet, j'ai 3 serveurs qui doivent être monitoré. Dont un serveur sous Linux, un serveur W2k16 Core et un Windows server 2012 R2 où est installé notre outil de monitoring.
 
 Nous possédons une instance EC2 chez Amazon, c'est sur cette dernière que nous effectuons une connexion en utilisant un tunnel SSH. Une fois la connexion établie, nous pouvons soit se connecter en SSH pour notre serveur Linux sous Centos ou en RDP sur nos serveurs Windows.
 
-Le service Mysql \(Centos\) ainsi que le service Files sur le server Core doivent être monitorer également.
+Le service Mysql \(Centos\) ainsi que le service Files/ Service IIS sur le serveur Core doivent être monitoré également.
 
 Le temps que nous avions à disposition pour conclure ce projet est de : 
 
@@ -53,9 +53,23 @@ L'installation est très simple, il suffit simplement d'attendre que l'executabl
 
 Voici l'interface de spiceworks : 
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
+
+![](.gitbook/assets/image%20%286%29.png)
+
+#### Ajout d'un client 
+
+Depuis l'interface de Spiceworks, il faut se rendre dans le menu "Devices" puis cliquer sur le bouton " + ADD NEW DEVICE" 
+
+![](.gitbook/assets/image%20%285%29.png)
+
+On renseigne ensuite de quel OS est le serveur 
+
+![](.gitbook/assets/image%20%2815%29.png)
+
+**Exemple pour un serveur Windows** 
 
 ![](.gitbook/assets/image%20%284%29.png)
 
-
+Les sondes sont ensuite automatiquement créer et le serveur est monitoré et ajouté dans le Dashboard
 

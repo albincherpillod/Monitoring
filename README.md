@@ -2,7 +2,7 @@
 
 #### Contexte
 
-Ceci est un laboratoire pour un projet scolaire.
+Ceci est un laboratoire pour un projet scolaire qui se déroulera du 29 avril au 21 juin.
 
 Pour ce projet, j'ai 3 serveurs qui doivent être monitoré. Dont un serveur sous Linux, un serveur W2k16 Core et un Windows server 2012 R2 où est installé notre outil de monitoring.
 

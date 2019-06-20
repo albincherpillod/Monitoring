@@ -14,3 +14,13 @@ Puis on lance la commande "Install-WindowsFeature File-Services"
 
 ![](.gitbook/assets/image%20%289%29.png)
 
+Le service File Server n'est pas répertorié dans les services accessibles depuis Spiceworks. Du coup j'ai décidé d'installé le rôle IIS. Le service se nomme : W3SVC
+
+Pour l'installer, il suffit de passer la commande suivante :
+
+```text
+Install-WindowsFeature Web-Server
+```
+
+
+

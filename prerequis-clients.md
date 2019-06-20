@@ -4,7 +4,7 @@ Prérequis pour les différents clients où les sondes seront configurés..
 
 Schéma infra : 
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 #### OS minimum :
 
@@ -24,9 +24,13 @@ RDP doit être actif pour les OS sous Windows
 
 #### Ports qui doivent être ouvert sur les clients :
 
-* Port 161 \(tcp\) SNMP
-* Port 135 \(tcp\) WMI
-* ICMP PING
+* Port 161 \(tcp\) SNMP utilisé pour les équipements réseaux
+* Port 135 \(tcp\) WMI utilisé pour les serveurs Windows
+* ICMP PING utilisé pour un double check si l'host est offline
+
+#### Prérequis spec : 
+
+Aucun agent n'est installés avec Spiceworks, les clients doivent supporter les protocoles WMI, SSH et ICMP pour pouvoir récupérer les informations nécessaires. 
 
 
 

@@ -27,7 +27,7 @@ Le firmware .NET 4.5 est nécessaire pour l'installation de cette solution, ains
 
 #### Sécurité
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image%20%281%29.png)
 
 * 4094 - collector service
 * 5555 - Processor service
@@ -53,23 +53,23 @@ L'installation est très simple, il suffit simplement d'attendre que l'executabl
 
 Voici l'interface de spiceworks : 
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2826%29.png)
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%287%29.png)
 
 #### Ajout d'un client 
 
 Depuis l'interface de Spiceworks, il faut se rendre dans le menu "Devices" puis cliquer sur le bouton " + ADD NEW DEVICE" 
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%286%29.png)
 
 On renseigne ensuite de quel OS est le serveur 
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2825%29.png)
 
 **Exemple pour un serveur Windows** 
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image%20%285%29.png)
 
 Les sondes sont ensuite automatiquement créer et le serveur est monitoré et ajouté dans le Dashboard
 
